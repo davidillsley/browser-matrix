@@ -128,6 +128,11 @@
         version: function(){ return 'auto'; }
       },
       {
+        key: /Edge/,
+        browser: 'Edge',
+        version: function(){ return 'auto'; }
+      },
+      {
         key: /Firefox/,
         browser: 'Firefox',
         version: function(row){
@@ -228,13 +233,17 @@
         key: /Amazon Silk/,
         browser: 'Amazon Silk',
         version: function(row){
-          var version = row[2].split('.');
-          return version[0];
+          return 'auto';
         }
       },
       {
         key: /Chrome/,
         browser: 'Chrome',
+        version: function(){ return 'auto'; }
+      },
+      {
+        key: /Edge/,
+        browser: 'Edge',
         version: function(){ return 'auto'; }
       },
       {
