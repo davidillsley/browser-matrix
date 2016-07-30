@@ -1,5 +1,5 @@
 # Browser Matrix
-
+ 
 A pure JavaScript browser visualisation tool. It uses Google's client side
 OAuth implementation to log you into your Google Analytics profile so that you
 can see information about the browsers your users use.
